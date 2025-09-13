@@ -11,7 +11,7 @@ def chatbot_response(user_input):
         "hello": "Hi there! What can I do for you?",
         "hii": "Hey! Nice to see you.",
         "where are you from": "I am from Vizianagaram.",
-        "who are you": "I am Karthik, your AI assistant.",
+        "who are you": "I am Karthik, AI assistant.",
         "how are you": "I am fine, thanks for asking! How are you?",
         "what is your name": "I am a Rule-Based Chatbot created in Python.",
         "bye": "Goodbye! Have a nice day.",
@@ -22,7 +22,7 @@ def chatbot_response(user_input):
     if user_input in rules:
         return rules[user_input]
     else:
-        return "Sorry, I didn’t understand that. Can you rephrase?"
+        return "Sorry Dude🙂, this bot responding some tasks only " 
 
 # Main loop
 print("🤖 Chatbot is running... (type 'bye' to exit)\n")
@@ -32,4 +32,3 @@ while True:
     print("Bot:", response)
     if user_text.lower() == "bye":
         break
-
